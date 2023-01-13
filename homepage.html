@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Linh Hung">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Petmemo</title>
+    <script type="text/javascript" src="javascript/script.js" defer></script>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+
+        <img class="logo" src='images/logo.png' alt='logo'>
+        <ul class="nav-menu">
+            <li><a class ="nav-item active" href='homepage.html'>Home</a></li>
+            <li><a class ="nav-item" href='account.html'>Account</a></li>
+            <li><a class ="nav-item" href='gallery.html'>Gallery</a></li>
+            <li><a class ="nav-item" href='contact.html'>Contact</a></li>
+        </ul>
+
+        <button class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+ 
+    </nav>
+    </header>
+    <main>
+        <div class="welcome" >
+            <h1>Welcome Pet Lover!</h1>
+            <p> Do you love pets?
+                This is the place where pet lovers gather to share stories and ideas about their pets.
+                Are you ready to have your own gallery? Sign up right now to create and save your thrilling memories with your pets immediately </p>
+        </div>
+        <div class='container-img'>
+            <button class='btn left'> <i class="fa-sharp fa-solid fa-rotate-left"></i> </button>
+            <ul class='main-dipslay'>
+                <li><video class='main-img active' autoplay > <source src="videos/Pexels Videos 3929.mp4" type="video/mp4"> </video></li>
+                <li><video class='main-img' autoplay > <source src="videos/video.mp4" type="video/mp4"> </video></li>
+                <li> <img class ='main-img' src='images/dog.webp' alt='smile cute dog' > </li>
+                <li><video class='main-img' autoplay> <source src="videos/Pexels Videos 2912.mp4" type="video/mp4"> </video></li>
+            </ul>
+            <button class='btn right'><i class="fa-sharp fa-solid fa-rotate-right"></i></button>
+           
+        </div>
+
+        <div class='signin'>
+            <form action='account.html'>
+                <button class='btn-signin' id="signIn">Sign in</button>
+            </form>
+        </div>
+
+
+    </main>
+    <footer>
+        
+       <p class='change-color'>&#9993; <a href='mailto:thung2@uncc.edu' > thung2@uncc.edu </a> </p>
+    </footer>
+</body>
+</html>

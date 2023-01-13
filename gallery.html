@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Linh Hung">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Petmemo</title>
+    <script type="text/javascript" src="javascript/gallerysc.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="logo" src='images/logo.png' alt='logo'>
+            <ul class="nav-menu">
+                <li><a class ="nav-item" href='homepage.html'>Home</a></li>
+                <li><a class ="nav-item" href='account.html'>Account</a></li>
+                <li><a class ="nav-item active" href='gallery.html'>Gallery</a></li>
+                <li><a class ="nav-item" href='contact.html'>Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container-content" >
+          <div class="welcome">
+              <h1>Kit Conundrum</h1>
+          </div>
+          <div class="container-img-acc"> </div>
+          <div class="error hidden"> </div>
+        </div>
+        
+
+        <button class="new-btn">Add a picture/video</button>
+        <section class="new-section hide">
+            <form class="add-form">
+                <input id="new-image" type="file" accept="image/*" id="file-input" required/>
+                <input id="title" name="Comment" type="text" minlength="3" placeholder="Comment" required>
+                <input type="submit" id="submit-btn">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+       <p>&#9993; <a href="mailto:thung2@uncc.edu" > thung2@uncc.edu </a> </p>
+    </footer>
+</body>
+</html>
